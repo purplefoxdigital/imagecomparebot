@@ -38,7 +38,6 @@ client.on('message', async message => {
 
   if (message.content === config.prefix + 'start') { // check for command 'start'
 
-    // idk why i have to do this shit but apparantly i have to do this for it to work properly
     sendImg();
 
     async function sendImg() {
